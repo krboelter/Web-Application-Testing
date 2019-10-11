@@ -39,8 +39,8 @@ function Dashboard() {
             <div>
                 <button data-testid="strikes-fn" onClick={() => handlePlay("strike")}>STRIKE</button>
                 <button data-testid="balls-fn" onClick={() => handlePlay("ball")}>BALL</button>
-                <button onClick={() => handlePlay("foul")}>FOUL</button>
-                <button onClick={hit}>HIT</button>
+                <button data-testid="fouls-fn" onClick={() => handlePlay("foul")}>FOUL</button>
+                <button data-testid="hit-fn" onClick={hit}>HIT</button>
             </div>
         </div>
     )
